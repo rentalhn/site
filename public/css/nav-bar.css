@@ -1,0 +1,140 @@
+a/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+ header {
+    padding: 156px 0 100px;
+  }
+  
+  section {
+    padding: 150px 0;
+  }
+
+  .fixed-top-2 {
+    margin-top: 106px;
+}
+  
+.logo{
+  max-height: 80px !important;
+  max-width: 13em;
+}
+/*
+.header_show{
+  opacity:0.8;
+  padding:308px;
+}
+*/
+.navbar-dark .navbar-nav .nav-link{
+  position: relative;
+    display: inline-block;
+    color: white  !important;
+    font-family: roboto condensed,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: .1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: .25s;
+  font-family: roboto condensed,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:#fac733 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:active{
+  color:#fac733 !important;
+}
+
+.navbar{
+  /*background-color: #3535346b !important;*/
+
+  background-color: #3a4046cf !important
+}
+
+.navbar.solid {
+  background:#343a40f7 !important;
+}
+
+.navbar_two .container{
+  display:block !important;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.filter-option-inner-inner{
+  color: #fac733 !important;
+  font-size: 20x !important;
+  font-weight: bold;
+}
+
+.dropdown-toggle::after {
+  color :#fac733 !important;
+}
+
+.product{
+  box-shadow: 0 0 30px rgba(21,21,21,.25);
+  padding: 1.25rem; 
+  margin: 0.7rem; 
+  background-color:white; 
+}
+
+.product-img img{
+  width:300px;
+  height: 200px; 
+}
+
+.product-body{
+  padding:10px; 
+}
+
+#main{
+  background: linear-gradient(rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.74)), url(https://www.spicyrocket.com//storage/uploads/2019/02/269/pop-1550471342.jpg);
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.button-previous{
+
+      color: #f9c133;
+      position: fixed;
+      width: 3.71428571em;
+      height: 3.71428571em;
+      background: #fff;
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 12px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.04);
+      z-index: 99;
+      border: 1px solid #ececec;
+      transition: 0.2s ease-out;
+      -webkit-transition: 0.2s ease-out;
+}
+
+.img-cart{
+  width:100px;
+  height: 70px;
+}
+
+.form {
+  background: white;
+  border: 2px solid #8e9092;
+}
+
+.form-register {
+  padding: 20px;
+}
